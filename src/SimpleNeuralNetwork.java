@@ -131,8 +131,9 @@ public class SimpleNeuralNetwork {
 
     // Main-Methode zum Testen des Netzes
     public static void main(String[] args) {
-        // Beispiel: XOR-Problem
+        // Bsp: XOR-Problem
         SimpleNeuralNetwork nn = new SimpleNeuralNetwork(2, 4, 1);
+
 
         // Trainingsdaten für XOR
         double[][] inputs = {
